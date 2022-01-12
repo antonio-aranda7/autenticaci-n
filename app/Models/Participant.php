@@ -5,13 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Event extends Model
+class Participant extends Model
 {
     use HasFactory;
 
     //Muchos a muchos
-    public function participants()
+    public function events()
     {
-        return $this->belongsToMany(Participant::class/*, 'clienteID', 'clienteID'*/);
+        return $this->belongsToMany(Event::class/*, 'clienteID', 'clienteID'*/);
     }
 }
