@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-//use App\Http\Controllers\EventController;
+use App\Http\Controllers\Api\EventController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -18,8 +18,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-use App\Http\Controllers\EventController;
-
-Route::apiResources([
-    'events' => EventController::class,
+//use App\Http\Controllers\Api\EventController;
+/**/Route::apiResources([
+    'events' => EventController::class, 
 ]);
+//Route::resource('events', EventController::class);

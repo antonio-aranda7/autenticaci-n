@@ -11,7 +11,7 @@ class CreateBoletosTable extends Migration
      *
      * @return void
      */
-    public function up()
+    /*public function up()
     {
         Schema::create('boletos', function (Blueprint $table) {
             $table->id('numBoleto');
@@ -19,7 +19,7 @@ class CreateBoletosTable extends Migration
             //$table->foreignId('seccion_id')->constrained();
             //$table->foreign('seccionId')->references('seccionId')->on('seccion');
         });
-    }
+    }*/
 
     /**
      * Reverse the migrations.

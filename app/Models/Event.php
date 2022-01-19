@@ -9,6 +9,9 @@ class Event extends Model
 {
     use HasFactory;
 
+    use HasFactory;
+    protected $guarded =[];
+    
     //Muchos a muchos
     public function participants()
     {

@@ -11,7 +11,7 @@ class CreateSeccionsTable extends Migration
      *
      * @return void
      */
-    public function up()
+    /*public function up()
     {
         Schema::create('seccions', function (Blueprint $table) {
             $table->id('seccionId');
@@ -19,7 +19,7 @@ class CreateSeccionsTable extends Migration
             $table->string('descripcion',30);
             $table->decimal('precio',10, 2);
         });
-    }
+    }*/
 
     /**
      * Reverse the migrations.

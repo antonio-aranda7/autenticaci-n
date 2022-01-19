@@ -11,7 +11,7 @@ class CreateComprasTable extends Migration
      *
      * @return void
      */
-    public function up()
+    /*public function up()
     {
         Schema::create('compras', function (Blueprint $table) {
             $table->id('compraId');
@@ -23,7 +23,7 @@ class CreateComprasTable extends Migration
             $table->boolean('pagado');
             $table->date('fechaHora');
         });
-    }
+    }*/
 
     /**
      * Reverse the migrations.
