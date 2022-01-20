@@ -69,7 +69,7 @@ class EventController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\JsonResponse
      */
     public function update(Request $request, $id)
     {
